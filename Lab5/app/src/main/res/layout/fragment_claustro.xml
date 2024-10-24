@@ -1,0 +1,38 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#55c4ff">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/claustro"
+        android:scaleType="centerCrop"
+        android:radius="200dp"
+        android:background="@drawable/rounded_image_view"
+        android:clipToOutline="true"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Claustro de la Compañía"
+        android:textColor="#FFA500"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="311dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="5dp"
+        android:text="El Claustro de la Compañía, es una de las obras arquitectónicas más emblemáticas de Arequipa, Perú. Forma parte del complejo del convento de la Compañía de Jesús, que fue fundado en el siglo XVII por los jesuitas. Este lugar es famoso por su rica historia, su arquitectura impresionante y su significancia cultural."
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+</LinearLayout>
+
+
